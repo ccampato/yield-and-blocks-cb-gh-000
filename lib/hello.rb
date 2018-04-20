@@ -1,7 +1,7 @@
 def hello_t(a)
   i=0
 
-  while i < a.lenght
+  while i < a.length
     yield array[i]
     i +=1
   end
