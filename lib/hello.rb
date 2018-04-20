@@ -6,10 +6,11 @@ def hello_t(a)
       yield a[i]
       i +=1
     end
-  
+
     a
   else
     puts "Hey! No block was given!"
+  end
 end
 
 # call your method here!
